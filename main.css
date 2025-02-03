@@ -1,0 +1,62 @@
+body {
+  background-color: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+header {
+  padding: 20px;
+}
+.blue {
+  color: #00aaff;
+  font-style: italic;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.movie-card {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.movie-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.movie-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.movie-card p {
+  font-size: 14px;
+  color: #bbb;
+}
+.more-info {
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
